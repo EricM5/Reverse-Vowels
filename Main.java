@@ -12,8 +12,8 @@ class Main {
 
       ArrayList <Character> list = new ArrayList <Character>();
       ArrayList <Character> vowels = new ArrayList<Character>();
+      
       //to get into an array
-    
       for (int i = 0; i < input.length(); i++) {
         list.add(i, input.charAt(i));
       }
@@ -37,13 +37,14 @@ class Main {
             sorted = false;
           }
         }
-
         if (sorted = true)
           break;
       }
+
       for (int i = 0; i < list.size(); i++) {
         System.out.print(list.get(i));
       }
+      
     }  
   }
 }
